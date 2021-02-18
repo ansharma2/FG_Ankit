@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="PICO_MA_01" key="{47A72B55-2AF7-4016-A5C0-D69D82B96B8C}" path="PICO_MA_01.tcKDTest" />
+		<child name="PICO_MA_02" key="{0F9CDC94-525B-44B6-AB92-A418E842E5EA}" path="PICO_MA_02.tcKDTest" />
+		<child name="PICO_MA_03" key="{A46518D5-655D-42CF-BFF7-3973D2A69C99}" path="PICO_MA_03.tcKDTest" />
+		<child name="PICO_MA_07" key="{1F782E63-1277-4C47-8E89-307CE6A136AB}" path="PICO_MA_07.tcKDTest" />
+		<child name="PICO_MA_08" key="{B24642B7-901A-4D80-AD0A-F71D71F38935}" path="PICO_MA_08.tcKDTest" />
+		<child name="PICO_MA_09" key="{EDE234D8-477F-43D4-9B80-FD914A10C1C9}" path="PICO_MA_09.tcKDTest" />
+		<child name="PICO_MA_12" key="{5A240D87-A7FE-4E28-AA5C-E4F3E15BAF86}" path="PICO_MA_12.tcKDTest" />
+		<child name="PICO_MA_13" key="{449A9E3C-07F4-46D8-93C5-D93A43261978}" path="PICO_MA_13.tcKDTest" />
+		<child name="PICO_MA_14" key="{F8847B68-B9CF-4E5F-B868-DBE39D8E5CD9}" path="PICO_MA_14.tcKDTest" />
+		<child name="PICO_MA_16" key="{A7750D4A-A42F-4C9E-8300-C173AD4823C4}" path="PICO_MA_16.tcKDTest" />
+	</children>
+</Root>

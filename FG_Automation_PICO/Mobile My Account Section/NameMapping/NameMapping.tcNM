@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{58AF17EA-372C-48F9-A1AB-EDF46A90C5CC}">
+				<TypeInfo Item0="{658BA794-06FD-4BBA-B6BF-41EBBCFA892A}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{D3239C33-1D8D-4947-B330-AB1795CA3888}">
+						<TypeInfo Item0="{B2A022E8-4754-4BA3-8B3F-1CE10ECF4B94}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageAvantiWestCoastBookCheapTrai" Key="{283308C4-F7BA-4FCB-8F48-9D71A44991A5}">
+								<Image FileName="2055486617" Left="8" Top="80" Right="1032" Bottom="848" />
+								<TypeInfo Item0="{679A49C1-3FE6-403B-96F6-E7715BCB4F4A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://192.168.12.12:90/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeMyAccountSignIn" Key="{00E4D06C-3ADB-4026-906F-A954A7CE53EE}">
+										<Image FileName="2055486617" Left="949" Top="80" Right="1012" Bottom="117" />
+										<TypeInfo Item0="{9C9BC651-8B15-4EA2-9B5D-2AA906A269A6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".nav-top-wrap &gt; ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page&apos;]/div/div/div/div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{86B268FC-4BE4-42A2-8581-2E0466CDBD20}">
+										<Image FileName="-2033261349" Left="969" Top="80" Right="1012" Bottom="117" />
+										<Selectors>
+											<Selector>
+												<Value Value="#signIn" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Sign In&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;signIn&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page&apos;]/div/div/div/div/ul/li[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignIn" Key="{437AB0BB-CDB2-4392-8C90-428AAE7A7FED}">
+										<Image FileName="-2033261349" Left="969" Top="89" Right="1012" Bottom="107" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/tickets/login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Sign In&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#signIn &gt; [href=&apos;/tickets/login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;signIn&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/tickets/login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogin" Key="{446C68F7-A6C2-40F6-9B12-4D4145E88C86}">
+								<Image FileName="1439583519" Left="8" Top="80" Right="1032" Bottom="848" />
+								<TypeInfo Item0="{679A49C1-3FE6-403B-96F6-E7715BCB4F4A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://192.168.12.12:90/tickets/login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeSignInToYourAccount" Key="{26DD8953-E594-4463-B479-C1BB24AF5FC0}">
+										<Image FileName="1439583519" Left="55" Top="204" Right="985" Bottom="242" />
+										<TypeInfo Item0="{9C9BC651-8B15-4EA2-9B5D-2AA906A269A6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[text()=&apos;Sign in to your Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".forgot-signin-title" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignIn" Key="{B81F6511-F30D-4720-96A7-FFEE0200EC15}">
+										<Image FileName="-2058321091" Left="902" Top="80" Right="985" Bottom="116" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".signin-btn" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignIn" Key="{2F9F910F-BC4C-4123-9E86-316749D952BB}">
+										<Image FileName="-2058321091" Left="918" Top="87" Right="969" Bottom="108" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".mat-button-wrapper" />
+											</Selector>
+											<Selector>
+												<Value Value="//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageLogoLightSvg" Key="{DF7AADC8-2CDD-425D-9433-AAEC244685E9}">
+										<Image FileName="-2058321091" Left="56" Top="124" Right="166" Bottom="173" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[src=&apos;../../../../assets/images/logo-light.svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@href=&apos;http://192.168.12.12:90/&apos;]/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form" Key="{55E89B3E-C931-4ACA-BF72-B85C7CB3EAB8}">
+										<Image FileName="-2058321091" Left="296" Top="285" Right="745" Bottom="680" />
+										<Selectors>
+											<Selector>
+												<Value Value=".mat-card-content &gt; .ng-untouched" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(.,&apos;Email Address*Enter your email addressPassword*Enter your password&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label" Key="{07862F7F-ADA8-43B2-8061-F917BFDD94A5}">
+										<Image FileName="-2058321091" Left="296" Top="321" Right="410" Bottom="345" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Email Address*&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".form-group:nth-child(1) &gt; .f-16" />
+											</Selector>
+											<Selector>
+												<Value Value="//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEnterYourEmailAddress" Key="{5AA48E61-BE55-413F-95F3-DBF85EB5CC52}">
+										<Image FileName="-2058321091" Left="296" Top="353" Right="745" Bottom="392" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-input-0" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Enter your email address&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;mat-input-0&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label2" Key="{5608C08E-AF23-4299-889A-8AFE2DB5B62B}">
+										<Image FileName="-2058321091" Left="296" Top="422" Right="375" Bottom="446" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Password*&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".form-group:nth-child(2) &gt; .f-16" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxEnterYourPassword" Key="{243D29F9-F3D2-4679-A8EC-AFB26FAEB93A}">
+										<Image FileName="-2058321091" Left="296" Top="454" Right="745" Bottom="493" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-input-1" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Enter your password&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;mat-input-1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label3" Key="{1FD17FBA-6D60-4197-8F8F-74455878F399}">
+										<Image FileName="-2058321091" Left="296" Top="522" Right="508" Bottom="546" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Remember me on this device&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".mat-checkbox-layout" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-checkbox-1&apos;]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkForgottenPassword" Key="{73A17AD1-1E91-41D5-B778-ABB4A770B536}">
+										<Image FileName="-2058321091" Left="608" Top="522" Right="745" Bottom="546" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;Forgotten password?&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".font-weight-500:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogin" Key="{DB1A2E68-1F50-49C1-B18D-30EA2F8807E2}">
+										<Image FileName="-2058321091" Left="296" Top="570" Right="745" Bottom="610" />
+										<TypeInfo Item0="{E15FD427-9B14-4EEA-99DB-459DC53FCDAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[text()=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCreateANewAccount" Key="{9303FB3C-8EA3-4FE4-BD0F-7E0F1EBC5D5B}">
+										<Image FileName="-2058321091" Left="448" Top="635" Right="592" Bottom="654" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;Create a new account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".send-email" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{87115B80-1989-4E3B-BAC2-383D9DF1EF8E}">
+								<Image FileName="-537800791" Left="0" Top="0" Right="1040" Bottom="856" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageAvantiWestCoastBookCheapTrai2" Key="{695D3B84-8C2B-4D65-8E26-C429DCEA46E5}">
+								<Image FileName="-119890809" Left="8" Top="80" Right="1032" Bottom="848" />
+								<TypeInfo Item0="{679A49C1-3FE6-403B-96F6-E7715BCB4F4A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://192.168.12.12:90/tickets/register" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeCreateANewAccount" Key="{90851D97-0619-421F-B6EC-0D390FB518AD}">
+										<Image FileName="-119890809" Left="55" Top="227" Right="985" Bottom="265" />
+										<TypeInfo Item0="{9C9BC651-8B15-4EA2-9B5D-2AA906A269A6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[text()=&apos;Create a new Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".forgot-signin-title" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageLogoLightSvg" Key="{9638A0FE-D954-42BA-94B5-E3476AD88BC2}">
+										<Image FileName="-967437767" Left="56" Top="124" Right="166" Bottom="173" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[src=&apos;../../../../assets/images/logo-light.svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@href=&apos;http://192.168.12.12:90/&apos;]/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form" Key="{9AF56AEF-9896-4C24-811E-8053C8973831}">
+										<Image FileName="-967437767" Left="296" Top="308" Right="745" Bottom="2125" />
+										<Selectors>
+											<Selector>
+												<Value Value=".mat-card-content &gt; .ng-untouched" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label" Key="{08ECB617-C129-4443-AEB1-7BB2AE9F82D8}">
+										<Image FileName="-967437767" Left="296" Top="335" Right="353" Bottom="353" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Email *&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMatInput2" Key="{B8D1F277-5537-4D58-ABEC-0C09BAA4EAF0}">
+										<Image FileName="-967437767" Left="296" Top="361" Right="745" Bottom="400" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-input-2" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;mat-input-2&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label2" Key="{F121167A-6663-4F02-98C2-09615C33D605}">
+										<Image FileName="-967437767" Left="296" Top="435" Right="407" Bottom="453" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Repeat Email*&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMatInput3" Key="{F56A3BD3-C5B7-4123-A5BA-E59631C48B8F}">
+										<Image FileName="-967437767" Left="296" Top="461" Right="745" Bottom="500" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-input-3" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;mat-input-3&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-form-field/div/div/div/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label3" Key="{3E1BFFD6-ADE0-4007-8D52-151C47CADB7C}">
+										<Image FileName="-967437767" Left="296" Top="536" Right="329" Bottom="554" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[text()=&apos;Title&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".example-full-width .f-16" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeChooseTitle" Key="{0457F096-737F-4859-B20D-DC7A5033A2ED}">
+										<Image FileName="-967437767" Left="296" Top="562" Right="745" Bottom="603" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#title" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select[contains(., &apos;Choose Title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select[@id=&apos;title&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label4" Key="{1A96E932-613A-462E-8BEC-04EB149327FF}">
+										<Image FileName="-967437767" Left="296" Top="632" Right="389" Bottom="650" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;First Name*&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-tns-c14-11 .f-16" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFirstname" Key="{6147C4B2-14DE-47BD-8D2E-C6F3F10E17F1}">
+										<Image FileName="-967437767" Left="296" Top="658" Right="745" Bottom="697" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#firstName" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;firstName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/mat-form-field/div/div/div/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label5" Key="{69128240-5151-4932-897C-D001A313FBA0}">
+										<Image FileName="-967437767" Left="296" Top="733" Right="374" Bottom="751" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Surname*&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-tns-c14-13 .f-16" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLastname" Key="{25A053E7-CF3B-477A-9372-F068057261C2}">
+										<Image FileName="-967437767" Left="296" Top="759" Right="745" Bottom="798" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#lastName" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;lastName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/mat-form-field/div/div/div/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEmailRepeatEmailPleaseTy" Key="{F0D2EAED-DFB8-4D68-B8AD-2BA5288C95F3}">
+										<Image FileName="-967437767" Left="71" Top="308" Right="969" Bottom="2125" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".mat-card-content" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card-content" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label6" Key="{5675002E-6635-49BA-80EC-7732F9A940C2}">
+										<Image FileName="1240331009" Left="296" Top="348" Right="396" Bottom="372" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[text()=&apos;Date of Birth&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".form-group &gt; .f-16" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMm" Key="{F8FF4843-5ECC-4E19-B541-66CFDD2A157C}">
+										<Image FileName="1240331009" Left="296" Top="380" Right="506" Bottom="419" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-input-6" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;MM&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;mat-input-6&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/div/div/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxYyyy" Key="{0A87CC1F-046E-4121-B260-63569E0B141E}">
+										<Image FileName="1240331009" Left="535" Top="380" Right="745" Bottom="419" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-input-7" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;YYYY&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[6]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;mat-input-7&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label7" Key="{B5AD46F7-C9A5-44C9-B89B-7AA2C9A72AF3}">
+										<Image FileName="1240331009" Left="296" Top="449" Right="377" Bottom="467" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Password*&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{82450311-B278-44BF-9525-4B5E68605864}">
+										<Image FileName="1240331009" Left="296" Top="475" Right="745" Bottom="514" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]/mat-form-field/div/div/div/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label8" Key="{FA5394A0-9D88-44EE-A464-258A6FEB0F37}">
+										<Image FileName="1240331009" Left="296" Top="549" Right="436" Bottom="567" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Repeat Password*&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-tns-c14-19 .f-16" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxConfirmpassword" Key="{6C05D99F-F36B-4A97-A420-C7A42B9D0CB2}">
+										<Image FileName="1240331009" Left="296" Top="575" Right="745" Bottom="614" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#confirmPassword" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;password&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;confirmPassword&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]/mat-form-field/div/div/div/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label9" Key="{0875B333-1460-4D5D-B56A-43635651237E}">
+										<Image FileName="1697549263" Left="296" Top="220" Right="376" Bottom="238" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Postcode*&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-tns-c14-21 .f-16" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[9]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxPostcode" Key="{993B0D29-5D04-464C-ADFE-533617F3A218}">
+										<Image FileName="1697549263" Left="296" Top="246" Right="745" Bottom="285" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#postCode" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[7]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;postCode&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[9]/mat-form-field/div/div/div/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label10" Key="{BDA243CF-2826-4720-AC86-64F33C754422}">
+										<Image FileName="1697549263" Left="296" Top="320" Right="375" Bottom="338" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;First Line*&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-tns-c14-23 .f-16" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxAddress1" Key="{95D87A39-D67F-42E8-A781-1E21A10C107B}">
+										<Image FileName="1697549263" Left="296" Top="346" Right="745" Bottom="385" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#address1" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[8]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;address1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/mat-form-field/div/div/div/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label11" Key="{F021C361-D627-4C17-ADB8-D576D0B8A36F}">
+										<Image FileName="1697549263" Left="296" Top="420" Right="392" Bottom="438" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[text()=&apos;Second Line&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-tns-c14-25 .f-16" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[11]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxAddress2" Key="{55BEED03-AE99-4944-860F-B57FF29D6A7E}">
+										<Image FileName="1697549263" Left="296" Top="446" Right="745" Bottom="485" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#address2" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[9]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;address2&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[11]/mat-form-field/div/div/div/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label12" Key="{646E4ADA-9024-4619-B39A-FE46B228F78D}">
+										<Image FileName="1697549263" Left="296" Top="521" Right="375" Bottom="539" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[text()=&apos;Third Line&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".form-group:nth-child(12) &gt; .mat-form-field:nth-child(1) &gt; .mat-form-field-wrapper:nth-child(1) &gt; .mat-form-field-flex:nth-child(1) &gt; .mat-form-field-infix:nth-child(1) &gt; .f-16:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxAddress3" Key="{8566A318-392C-4047-951D-77DB53FE8CA9}">
+										<Image FileName="1697549263" Left="296" Top="547" Right="745" Bottom="586" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#address3" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[10]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;address3&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]/mat-form-field/div/div/div/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label13" Key="{156A3EB1-2BAC-4B66-AEFB-13F8F5111964}">
+										<Image FileName="1697549263" Left="296" Top="621" Right="382" Bottom="639" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;City/Town*&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-tns-c14-29 .f-16" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[13]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCity" Key="{EDC31419-678D-47DF-BBE3-55585D44C68E}">
+										<Image FileName="1697549263" Left="296" Top="647" Right="745" Bottom="686" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#city" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[11]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;city&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[13]/mat-form-field/div/div/div/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label14" Key="{742E4200-B948-4882-A284-C00B9D7DB5DB}">
+										<Image FileName="1697549263" Left="296" Top="721" Right="360" Bottom="739" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[text()=&apos;Country&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-tns-c14-31 .f-16" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[14]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCountry" Key="{71D7679D-A1FE-4498-8EF2-C6C179FAE0B7}">
+										<Image FileName="1697549263" Left="296" Top="747" Right="745" Bottom="786" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#country" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[12]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;country&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[14]/mat-form-field/div/div/div/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label15" Key="{FF049AEB-BF69-4132-84AF-9CB69EAAB27B}">
+										<Image FileName="59075666" Left="296" Top="444" Right="351" Bottom="462" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[text()=&apos;Mobile&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-tns-c14-33 .f-16" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[15]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMobile" Key="{A148308B-34BB-47E4-B7C9-7ED1B3C521A7}">
+										<Image FileName="59075666" Left="296" Top="470" Right="745" Bottom="509" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Mobile" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[13]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;Mobile&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[15]/mat-form-field/div/div/div/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label16" Key="{568FC599-8EC2-4B93-B8F2-3E004A7E3509}">
+										<Image FileName="59075666" Left="296" Top="544" Right="476" Bottom="562" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[text()=&apos;Nectar Account number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".form-group-label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[16]/mat-form-field/div/div/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageNectarRegisterSvg" Key="{35E57A27-1442-48FE-98E6-6211F9B729A9}">
+										<Image FileName="59075666" Left="296" Top="570" Right="341" Bottom="609" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[src=&apos;../../../assets/images/nectar-register.svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDoYouHaveANectarAccount" Key="{702357D5-B759-43E2-BA7B-F6DF1E250386}">
+										<Image FileName="59075666" Left="360" Top="570" Right="596" Bottom="588" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[text()=&apos;Do you have a Nectar Account?&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".mb-2" />
+											</Selector>
+											<Selector>
+												<Value Value="//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRegisterItWithUsNow" Key="{3412782B-3966-4E11-8D8E-3050BB04206E}">
+										<Image FileName="59075666" Left="360" Top="596" Right="596" Bottom="609" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[text()=&apos;Register it with us now!&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".f-12" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode98263000" Key="{600132FA-5215-4742-B593-ACF34B621112}">
+										<Image FileName="59075666" Left="296" Top="624" Right="402" Bottom="669" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(text(), &apos;98263000 -&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".pr-20" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxNectarAccountNumber" Key="{6E62A6BD-02BE-4932-8763-5A62B5D8A335}">
+										<Image FileName="59075666" Left="401" Top="624" Right="750" Bottom="663" />
+										<TypeInfo Item0="{57171C95-C494-481E-96A5-D465F461A4C5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Nectar" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[text()=&apos;Nectar Account number&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[14]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;Nectar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div[2]/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeIAcceptThePrivacyPolicyA" Key="{2401CF86-DB95-4AF3-B783-AFEFCDEF7361}">
+										<Image FileName="59075666" Left="296" Top="699" Right="745" Bottom="723" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-checkbox-2" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[contains(., &apos;I accept the Privacy Policy and Terms and Conditions&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-checkbox-2&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRememberMeOnThisDevice" Key="{29B856C1-CF74-456B-9FAC-87530DD8CBF4}">
+										<Image FileName="59075666" Left="296" Top="727" Right="745" Bottom="751" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-checkbox-3" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[contains(., &apos;Remember me on this device&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-checkbox-3&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[18]/mat-checkbox" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCreate" Key="{BDB91CF0-128A-4F6A-9656-39922F80DBA3}">
+										<Image FileName="59075666" Left="671" Top="792" Right="744" Bottom="832" />
+										<TypeInfo Item0="{E15FD427-9B14-4EEA-99DB-459DC53FCDAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Create&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[19]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreate" Key="{3713D050-53EF-474A-BA44-22BE8C2810A5}">
+										<Image FileName="1080438812" Left="683" Top="801" Right="732" Bottom="821" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Create&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[type=&apos;submit&apos;] &gt; .mat-button-wrapper" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[19]/button/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePleaseCompleteThisMandat" Key="{3D42AFE7-6DE5-42EB-9FCF-7F24DE83169A}">
+										<Image FileName="-1477253866" Left="296" Top="400" Right="745" Bottom="415" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Please complete this mandatory field.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".form-group:nth-child(1) &gt; .mat-form-field:nth-child(1) &gt; .mat-form-field-wrapper:nth-child(1) &gt; .mat-form-field-flex:nth-child(1) &gt; .mat-form-field-infix:nth-child(1) &gt; .example-full-width:nth-child(2) &gt; .mat-form-field-wrapper:nth-child(1) &gt; .mat-form-field-flex:nth-child(1) &gt; .mat-form-field-infix:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .validation-err:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePleaseCompleteThisMandat2" Key="{9E765429-0D8C-4F26-A71D-1ABBDDCA9ACA}">
+										<Image FileName="-216709538" Left="296" Top="520" Right="745" Bottom="535" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-tns-c14-8 .ng-star-inserted &gt; .validation-err" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Please complete this mandatory field.&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-form-field/div/div/div/mat-form-field/div/div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{5F87F416-A39E-4ED0-81EC-B6104F19CFCA}">
+										<Image FileName="-718448552" Left="296" Top="500" Right="745" Bottom="515" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Email must be match&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".validation-err:nth-child(3)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePleaseCompleteThisMandat3" Key="{1A3A7ABC-7028-45AA-9AC5-D4825C36E2C5}">
+										<Image FileName="-1548146901" Left="296" Top="697" Right="745" Bottom="712" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Please complete this mandatory field.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".form-group:nth-child(4) &gt; .mat-form-field:nth-child(1) &gt; .mat-form-field-wrapper:nth-child(1) &gt; .mat-form-field-flex:nth-child(1) &gt; .mat-form-field-infix:nth-child(1) &gt; .example-full-width:nth-child(2) &gt; .mat-form-field-wrapper:nth-child(1) &gt; .mat-form-field-flex:nth-child(1) &gt; .mat-form-field-infix:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .validation-err:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/mat-form-field/div/div/div/mat-form-field/div/div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePleaseCompleteThisMandat4" Key="{09AA5F0F-6278-4986-ABDD-17941157B83C}">
+										<Image FileName="-1576858930" Left="296" Top="247" Right="745" Bottom="262" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Please complete this mandatory field.&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/mat-form-field/div/div/div/mat-form-field/div/div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeThePasswordMustBeAtLeast" Key="{1971DAB1-5138-49E0-BD52-2ADAFDFA98CA}">
+										<Image FileName="1816552346" Left="296" Top="468" Right="745" Bottom="513" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-tns-c14-18 .validation-err" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]/mat-form-field/div/div/div/mat-form-field/div/div/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(.,&apos;The password must be at least 10 characters. It should contain at least one uppercase letter, one lowercase letter, at least one number and at least one special character (!,-_.@;:$%%^[\]?=&gt;/&lt;).&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{0D998CD0-E491-43BD-ACB8-D2C71D5FB46D}">
+										<Image FileName="-798055283" Left="296" Top="568" Right="745" Bottom="583" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Password must be match&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".validation-err:nth-child(3)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePleaseCompleteThisMandat5" Key="{3601C6BD-0B5E-4D1A-B057-DDF2358D5203}">
+										<Image FileName="733205048" Left="296" Top="669" Right="745" Bottom="684" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".form-group:nth-child(9) &gt; .mat-form-field:nth-child(1) &gt; .mat-form-field-wrapper:nth-child(1) &gt; .mat-form-field-flex:nth-child(1) &gt; .mat-form-field-infix:nth-child(1) &gt; .example-full-width:nth-child(2) &gt; .mat-form-field-wrapper:nth-child(1) &gt; .mat-form-field-flex:nth-child(1) &gt; .mat-form-field-infix:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .validation-err:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Please complete this mandatory field.&apos;)])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[9]/mat-form-field/div/div/div/mat-form-field/div/div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePleaseCompleteThisMandat6" Key="{9D5B821E-8955-4159-81AB-D16892B40E36}">
+										<Image FileName="-51893637" Left="296" Top="402" Right="745" Bottom="423" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".form-group &gt; .ng-star-inserted &gt; .validation-err" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Please complete this mandatory field.&apos;)])[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{5057A214-76CF-4C0B-95D6-AD4F149A196A}">
+										<Image FileName="-1421197539" Left="296" Top="674" Right="745" Bottom="733" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-tns-c14-30 .mat-form-field-infix" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;Please complete this mandatory field.&apos;)])[42]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[13]/mat-form-field/div/div/div/mat-form-field/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel4" Key="{07884CB5-F61C-4D3D-9C98-19536BDEA68B}">
+										<Image FileName="1510790651" Left="296" Top="197" Right="745" Bottom="288" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-tns-c14-29 &gt; .mat-form-field-wrapper &gt; .mat-form-field-flex &gt; .mat-form-field-infix" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;City/Town*Please complete this mandatory field.&apos;)])[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[13]/mat-form-field/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePleaseCompleteThisMandat7" Key="{1253FA33-9F6C-451A-B270-AEC7E09F55F7}">
+										<Image FileName="1510790651" Left="296" Top="701" Right="745" Bottom="722" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-star-inserted:nth-child(18) &gt; .validation-err" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Please complete this mandatory field.&apos;)])[7]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[18]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNectarAccountNumberShoul" Key="{6F2FDD2D-3344-4CD3-A2B6-DD9EDA8DCACF}">
+										<Image FileName="-803848437" Left="401" Top="637" Right="750" Bottom="652" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Nectar Account Number should be 11 digits.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".d-flex:nth-child(3) &gt; .example-full-width:nth-child(2) &gt; .mat-form-field-wrapper:nth-child(1) &gt; .mat-form-field-flex:nth-child(1) &gt; .mat-form-field-infix:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .validation-err:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-form-field/div/div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel5" Key="{DBA6507A-4ECE-4F48-B79A-937601E43552}">
+										<Image FileName="1879232488" Left="334" Top="728" Right="747" Bottom="743" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;United Kingdom&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[title=&apos;United Kingdom&apos;] &gt; .pcaflaglabel" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[235]/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label17" Key="{DE790960-2D88-4A9D-9D44-FF1B63C5DBF5}">
+										<Image FileName="1916520276" Left="296" Top="699" Right="666" Bottom="723" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;I accept the Privacy Policy and Terms and Conditions&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-checkbox-2 &gt; .mat-checkbox-layout" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-checkbox-2&apos;]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel6" Key="{7537C928-307F-457B-8D8E-3AEB7C46692C}">
+										<Image FileName="1916520276" Left="296" Top="703" Right="312" Bottom="719" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-checkbox-2 .mat-checkbox-inner-container" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-checkbox-2&apos;]/label/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel7" Key="{6CE20173-E754-4EE1-89EB-05ECB719C0D1}">
+										<Image FileName="-193965849" Left="309" Top="255" Right="714" Bottom="274" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".mat-select-value" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;Choose Title&apos;)])[7]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select[@id=&apos;title&apos;]/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMr" Key="{8FC5CD70-80BA-4D7E-8FF6-E1073D458151}">
+										<Image FileName="-171374094" Left="309" Top="289" Right="732" Bottom="337" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Mr&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-option-1 &gt; .mat-option-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-1&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel8" Key="{4D1FDBCB-2BD9-4EBC-9345-66F123DA8B9F}">
+										<Image FileName="878331250" Left="8" Top="774" Right="1032" Bottom="848" />
+										<TypeInfo Item0="{D1D8F2FF-8D4E-4A71-B395-27D9588C0AFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[aria-live=&apos;polite&apos;]:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;toast-container&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//toastr-notification/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;× It has not been possible to register, as an account with this email address already exists. If you can’t remember your password, please click on the forgotten password link on the login page.&apos;)])[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{D3239C33-1D8D-4947-B330-AB1795CA3888}">
+			<Child Name="pageAvantiWestCoastBookCheapTrai" Owner="{283308C4-F7BA-4FCB-8F48-9D71A44991A5}">
+				<Child Name="textnodeMyAccountSignIn" Owner="{00E4D06C-3ADB-4026-906F-A954A7CE53EE}" />
+				<Child Name="textnode" Owner="{86B268FC-4BE4-42A2-8581-2E0466CDBD20}">
+					<Child Name="linkSignIn" Owner="{437AB0BB-CDB2-4392-8C90-428AAE7A7FED}" />
+				</Child>
+			</Child>
+			<Child Name="pageLogin" Owner="{446C68F7-A6C2-40F6-9B12-4D4145E88C86}">
+				<Child Name="textnodeSignInToYourAccount" Owner="{26DD8953-E594-4463-B479-C1BB24AF5FC0}" />
+				<Child Name="buttonSignIn" Owner="{B81F6511-F30D-4720-96A7-FFEE0200EC15}">
+					<Child Name="textnodeSignIn" Owner="{2F9F910F-BC4C-4123-9E86-316749D952BB}" />
+				</Child>
+				<Child Name="imageLogoLightSvg" Owner="{DF7AADC8-2CDD-425D-9433-AAEC244685E9}" />
+				<Child Name="form" Owner="{55E89B3E-C931-4ACA-BF72-B85C7CB3EAB8}">
+					<Child Name="label" Owner="{07862F7F-ADA8-43B2-8061-F917BFDD94A5}" />
+					<Child Name="textboxEnterYourEmailAddress" Owner="{5AA48E61-BE55-413F-95F3-DBF85EB5CC52}" />
+					<Child Name="passwordboxEnterYourPassword" Owner="{243D29F9-F3D2-4679-A8EC-AFB26FAEB93A}" />
+					<Child Name="linkForgottenPassword" Owner="{73A17AD1-1E91-41D5-B778-ABB4A770B536}" />
+					<Child Name="buttonLogin" Owner="{DB1A2E68-1F50-49C1-B18D-30EA2F8807E2}" />
+					<Child Name="linkCreateANewAccount" Owner="{9303FB3C-8EA3-4FE4-BD0F-7E0F1EBC5D5B}" />
+				</Child>
+				<Child Name="label2" Owner="{5608C08E-AF23-4299-889A-8AFE2DB5B62B}" />
+				<Child Name="label3" Owner="{1FD17FBA-6D60-4197-8F8F-74455878F399}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{87115B80-1989-4E3B-BAC2-383D9DF1EF8E}" />
+			<Child Name="pageAvantiWestCoastBookCheapTrai2" Owner="{695D3B84-8C2B-4D65-8E26-C429DCEA46E5}">
+				<Child Name="textnodeCreateANewAccount" Owner="{90851D97-0619-421F-B6EC-0D390FB518AD}" />
+				<Child Name="imageLogoLightSvg" Owner="{9638A0FE-D954-42BA-94B5-E3476AD88BC2}" />
+				<Child Name="form" Owner="{9AF56AEF-9896-4C24-811E-8053C8973831}">
+					<Child Name="label" Owner="{08ECB617-C129-4443-AEB1-7BB2AE9F82D8}" />
+					<Child Name="textboxMatInput2" Owner="{B8D1F277-5537-4D58-ABEC-0C09BAA4EAF0}" />
+					<Child Name="label2" Owner="{F121167A-6663-4F02-98C2-09615C33D605}" />
+					<Child Name="textboxMatInput3" Owner="{F56A3BD3-C5B7-4123-A5BA-E59631C48B8F}" />
+					<Child Name="label3" Owner="{3E1BFFD6-ADE0-4007-8D52-151C47CADB7C}" />
+					<Child Name="textnodeChooseTitle" Owner="{0457F096-737F-4859-B20D-DC7A5033A2ED}" />
+					<Child Name="label4" Owner="{1A96E932-613A-462E-8BEC-04EB149327FF}" />
+					<Child Name="textboxFirstname" Owner="{6147C4B2-14DE-47BD-8D2E-C6F3F10E17F1}" />
+					<Child Name="textboxLastname" Owner="{25A053E7-CF3B-477A-9372-F068057261C2}" />
+					<Child Name="label6" Owner="{5675002E-6635-49BA-80EC-7732F9A940C2}" />
+					<Child Name="textboxMm" Owner="{F8FF4843-5ECC-4E19-B541-66CFDD2A157C}" />
+					<Child Name="textboxYyyy" Owner="{0A87CC1F-046E-4121-B260-63569E0B141E}" />
+					<Child Name="passwordboxPassword" Owner="{82450311-B278-44BF-9525-4B5E68605864}" />
+					<Child Name="label8" Owner="{FA5394A0-9D88-44EE-A464-258A6FEB0F37}" />
+					<Child Name="passwordboxConfirmpassword" Owner="{6C05D99F-F36B-4A97-A420-C7A42B9D0CB2}" />
+					<Child Name="label9" Owner="{0875B333-1460-4D5D-B56A-43635651237E}" />
+					<Child Name="textboxPostcode" Owner="{993B0D29-5D04-464C-ADFE-533617F3A218}" />
+					<Child Name="label10" Owner="{BDA243CF-2826-4720-AC86-64F33C754422}" />
+					<Child Name="textboxAddress1" Owner="{95D87A39-D67F-42E8-A781-1E21A10C107B}" />
+					<Child Name="label11" Owner="{F021C361-D627-4C17-ADB8-D576D0B8A36F}" />
+					<Child Name="textboxAddress2" Owner="{55BEED03-AE99-4944-860F-B57FF29D6A7E}" />
+					<Child Name="label12" Owner="{646E4ADA-9024-4619-B39A-FE46B228F78D}" />
+					<Child Name="textboxAddress3" Owner="{8566A318-392C-4047-951D-77DB53FE8CA9}" />
+					<Child Name="label13" Owner="{156A3EB1-2BAC-4B66-AEFB-13F8F5111964}" />
+					<Child Name="textboxCity" Owner="{EDC31419-678D-47DF-BBE3-55585D44C68E}" />
+					<Child Name="label14" Owner="{742E4200-B948-4882-A284-C00B9D7DB5DB}" />
+					<Child Name="textboxCountry" Owner="{71D7679D-A1FE-4498-8EF2-C6C179FAE0B7}" />
+					<Child Name="label15" Owner="{FF049AEB-BF69-4132-84AF-9CB69EAAB27B}" />
+					<Child Name="textboxMobile" Owner="{A148308B-34BB-47E4-B7C9-7ED1B3C521A7}" />
+					<Child Name="label16" Owner="{568FC599-8EC2-4B93-B8F2-3E004A7E3509}" />
+					<Child Name="imageNectarRegisterSvg" Owner="{35E57A27-1442-48FE-98E6-6211F9B729A9}" />
+					<Child Name="textnodeDoYouHaveANectarAccount" Owner="{702357D5-B759-43E2-BA7B-F6DF1E250386}" />
+					<Child Name="textnodeRegisterItWithUsNow" Owner="{3412782B-3966-4E11-8D8E-3050BB04206E}" />
+					<Child Name="textnode98263000" Owner="{600132FA-5215-4742-B593-ACF34B621112}" />
+					<Child Name="textboxNectarAccountNumber" Owner="{6E62A6BD-02BE-4932-8763-5A62B5D8A335}" />
+					<Child Name="textnodeIAcceptThePrivacyPolicyA" Owner="{2401CF86-DB95-4AF3-B783-AFEFCDEF7361}" />
+					<Child Name="textnodeRememberMeOnThisDevice" Owner="{29B856C1-CF74-456B-9FAC-87530DD8CBF4}" />
+					<Child Name="buttonCreate" Owner="{BDB91CF0-128A-4F6A-9656-39922F80DBA3}">
+						<Child Name="textnodeCreate" Owner="{3713D050-53EF-474A-BA44-22BE8C2810A5}" />
+					</Child>
+					<Child Name="textnodePleaseCompleteThisMandat" Owner="{3D42AFE7-6DE5-42EB-9FCF-7F24DE83169A}" />
+					<Child Name="textnodePleaseCompleteThisMandat2" Owner="{9E765429-0D8C-4F26-A71D-1ABBDDCA9ACA}" />
+					<Child Name="panel" Owner="{5F87F416-A39E-4ED0-81EC-B6104F19CFCA}" />
+					<Child Name="textnodePleaseCompleteThisMandat3" Owner="{1A3A7ABC-7028-45AA-9AC5-D4825C36E2C5}" />
+					<Child Name="textnodePleaseCompleteThisMandat4" Owner="{09AA5F0F-6278-4986-ABDD-17941157B83C}" />
+					<Child Name="textnodeThePasswordMustBeAtLeast" Owner="{1971DAB1-5138-49E0-BD52-2ADAFDFA98CA}" />
+					<Child Name="panel2" Owner="{0D998CD0-E491-43BD-ACB8-D2C71D5FB46D}" />
+					<Child Name="textnodePleaseCompleteThisMandat5" Owner="{3601C6BD-0B5E-4D1A-B057-DDF2358D5203}" />
+					<Child Name="textnodePleaseCompleteThisMandat6" Owner="{9D5B821E-8955-4159-81AB-D16892B40E36}" />
+					<Child Name="panel3" Owner="{5057A214-76CF-4C0B-95D6-AD4F149A196A}" />
+					<Child Name="panel4" Owner="{07884CB5-F61C-4D3D-9C98-19536BDEA68B}" />
+					<Child Name="textnodePleaseCompleteThisMandat7" Owner="{1253FA33-9F6C-451A-B270-AEC7E09F55F7}" />
+					<Child Name="textnodeNectarAccountNumberShoul" Owner="{6F2FDD2D-3344-4CD3-A2B6-DD9EDA8DCACF}" />
+					<Child Name="label17" Owner="{DE790960-2D88-4A9D-9D44-FF1B63C5DBF5}">
+						<Child Name="panel6" Owner="{7537C928-307F-457B-8D8E-3AEB7C46692C}" />
+					</Child>
+					<Child Name="panel7" Owner="{6CE20173-E754-4EE1-89EB-05ECB719C0D1}" />
+				</Child>
+				<Child Name="label5" Owner="{69128240-5151-4932-897C-D001A313FBA0}" />
+				<Child Name="textnodeEmailRepeatEmailPleaseTy" Owner="{F0D2EAED-DFB8-4D68-B8AD-2BA5288C95F3}" />
+				<Child Name="label7" Owner="{B5AD46F7-C9A5-44C9-B89B-7AA2C9A72AF3}" />
+				<Child Name="panel5" Owner="{DBA6507A-4ECE-4F48-B79A-937601E43552}" />
+				<Child Name="textnodeMr" Owner="{8FC5CD70-80BA-4D7E-8FF6-E1073D458151}" />
+				<Child Name="panel8" Owner="{4D1FDBCB-2BD9-4EBC-9345-66F123DA8B9F}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
