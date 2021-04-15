@@ -142,5 +142,7 @@
 		<child name="PICO_SJ_59" key="{EC5A8852-75B8-4DD9-B922-B69D86B5282C}" path="PICO_SJ_59.tcKDTest" />
 		<child name="PICO_SJ_70" key="{9D64E42F-B6EE-429D-844B-65ECADCC4A29}" path="PICO_SJ_70.tcKDTest" />
 		<child name="Test1" key="{2D01680F-400A-4CC5-A9A1-4D26F80DDFCC}" path="Test1.tcKDTest" />
+		<child name="SingleTicket" key="{3639B1D2-ED60-4BAD-81C9-7F6F401661C2}" path="SingleTicket.tcKDTest" />
+		<child name="ClearCache" key="{8D255B85-D867-4623-85B1-AE63F6C46204}" path="ClearCache.tcKDTest" />
 	</children>
 </Root>

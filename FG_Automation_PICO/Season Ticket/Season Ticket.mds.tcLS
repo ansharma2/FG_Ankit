@@ -88,7 +88,7 @@
 					</Node>
 					<Node name="var6">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="550073006500720070006F0069006E0074003000310040007100330074006500630068002E0063006F006D00"/>
+							<Prp name="strvalue" type="H" value="6E00650077007500730065007200730074003000310040007100330074006500630068002E0063006F006D00"/>
 						</Node>
 						<Prp name="name" type="S" value="NewUserID"/>
 					</Node>

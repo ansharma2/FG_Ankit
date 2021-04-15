@@ -24,15 +24,6 @@
 					</Operation>
 				</Children>
 			</Operation>
-			<Operation Type="{73F99A92-A52F-4C8A-AEA4-1409AF65ACD1}">
-				<Data Description="Launches the specified virtual browser and opens the specified URL in it." BrowserName="Apple iPad">
-					<CommonData Disabled="True" />
-					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
-						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="URL" />
-						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-					</Parameters>
-				</Data>
-			</Operation>
 			<Operation Type="{A55111E7-7644-4DCD-8388-C21112181210}">
 				<Data Description="Iterates through the specified virtual browsers." IterateAll="True">
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
@@ -42,18 +33,6 @@
 					<Item />
 				</Data>
 				<Children>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Action="Position" InvokeKind="-1">
-							<CommonData Disabled="True" />
-							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
-								<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
-								<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
-								<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="1040" />
-								<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="856" />
-							</Parameters>
-							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.BrowserWindow;" />
-						</Data>
-					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
 							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
@@ -211,6 +190,14 @@
 								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
 								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="9" ValueValue="54006F00200062006500200073006100660065002C00200079006F007500720020006100630063006F0075006E0074002000690073002000630075007200720065006E0074006C00790020006C006F0063006B00650064003A000B2020000B2059006F00750020007400790070006500640020007400680065002000770072006F006E0067002000640065007400610069006C007300200074006F006F0020006D0061006E0079002000740069006D00650073002E00200050006C0065006100730065002000740072007900200061006700610069006E0020006C0061007400650072002E00" />
 								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="120000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
 							</Parameters>
 						</Data>
 					</Operation>

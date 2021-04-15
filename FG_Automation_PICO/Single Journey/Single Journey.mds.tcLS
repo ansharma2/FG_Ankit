@@ -46,7 +46,7 @@
 					</Node>
 					<Node name="var11">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="440065006D006F00750073006500720070006F0069006E00740030003100400067006D00610069006C002E0063006F006D00"/>
+							<Prp name="strvalue" type="H" value="440065006D006F00750073006500720070006F0069006E00740030003200400067006D00610069006C002E0063006F006D00"/>
 						</Node>
 						<Prp name="name" type="S" value="NewUserID_ExtraScreen"/>
 					</Node>
@@ -91,7 +91,7 @@
 					</Node>
 					<Node name="var3">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="320030003A0030003000"/>
+							<Prp name="strvalue" type="H" value="310035003A0030003000"/>
 						</Node>
 						<Prp name="name" type="S" value="WDepTimeIndex2"/>
 					</Node>
@@ -115,7 +115,7 @@
 					</Node>
 					<Node name="var8">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="440065006D006F0075007300650072003000310040007100330074006500630068002E0063006F006D00"/>
+							<Prp name="strvalue" type="H" value="440065006D006F0075007300650072003000320040007100330074006500630068002E0063006F006D00"/>
 						</Node>
 						<Prp name="name" type="S" value="NewUserID"/>
 					</Node>

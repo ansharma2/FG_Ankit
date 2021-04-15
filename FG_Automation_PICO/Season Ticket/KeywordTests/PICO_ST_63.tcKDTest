@@ -14,6 +14,9 @@
 			</Extenders>
 		</Data>
 		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="ClearCache" />
+			</Operation>
 			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
 				<Data>
 					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser;" />

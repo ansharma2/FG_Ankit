@@ -50,9 +50,9 @@
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageAvantiWestCoastBookCheapTrai.textnodeBookDirectAndDonTPayABoo" />
-						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="FullName" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Name" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Sys.Browser().Page(&quot;http://192.168.12.12:90/&quot;).FindElement(&quot;.banner-left &gt; h2&quot;)" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="FindElement(&quot;.banner-left &gt; h2&quot;)" />
 						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
@@ -61,9 +61,9 @@
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageAvantiWestCoastBookCheapTrai.textnodeEasilyGenerateLoremIpsum" />
-						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="FullName" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Name" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Sys.Browser().Page(&quot;http://192.168.12.12:90/&quot;).FindElement(&quot;.banner-left &gt; p&quot;)" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="FindElement(&quot;.banner-left &gt; p&quot;)" />
 						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>

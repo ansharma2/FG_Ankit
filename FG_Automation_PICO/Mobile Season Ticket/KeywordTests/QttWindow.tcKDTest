@@ -207,7 +207,7 @@
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
 						<Parameter Name="PropertyName" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
 						<Parameter Name="PropertyValue" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-						<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="20000" />
+						<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="30000" />
 					</Parameters>
 					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageSeasonSearchResults;" />
 				</Data>

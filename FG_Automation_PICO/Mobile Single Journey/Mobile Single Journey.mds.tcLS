@@ -106,7 +106,7 @@
 					</Node>
 					<Node name="var5">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="320030003A0033003000"/>
+							<Prp name="strvalue" type="H" value="310035003A0030003000"/>
 						</Node>
 						<Prp name="name" type="S" value="Time"/>
 					</Node>

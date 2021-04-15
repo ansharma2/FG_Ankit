@@ -16,6 +16,9 @@
 					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser;" />
 				</Data>
 				<Children>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="ClearCache" />
+					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Closes the &apos;%n&apos; window." Action="Close">
 							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
@@ -133,7 +136,7 @@
 								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageAvantiWestCoastBookCheapTrai5.textnodeLondonEustonEusManorbier" />
 								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
 								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="9" ValueValue="4C006F006E0064006F006E00200045007500730074006F006E002000280045005500530029000A004D0061006E006F0072006200690065007200200028004D00520042002900" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="9" ValueValue="4C006F006E0064006F006E00200045007500730074006F006E002000280045005500530029000A004D0061006E006300680065007300740065007200200050006900630063006100640069006C006C007900200028004D0041004E002900" />
 								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 							</Parameters>
 						</Data>
@@ -258,6 +261,9 @@
 								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 							</Parameters>
 						</Data>
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="ClearCache" />
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Closes the &apos;%n&apos; window." Action="Close">

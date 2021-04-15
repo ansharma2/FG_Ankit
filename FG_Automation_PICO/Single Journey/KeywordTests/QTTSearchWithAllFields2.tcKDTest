@@ -24,6 +24,9 @@
 					</Operation>
 				</Children>
 			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="ClearCache" />
+			</Operation>
 			<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
 				<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="chrome">
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">

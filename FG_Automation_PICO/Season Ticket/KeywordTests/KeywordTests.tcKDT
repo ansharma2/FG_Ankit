@@ -89,5 +89,11 @@
 		<child name="PICO_ST_98" key="{DD674EAC-A6AC-4BC8-BCD7-5EED4095F781}" path="PICO_ST_98.tcKDTest" />
 		<child name="PICO_ST_73" key="{0717170C-8CF8-40C0-9D49-738638ADD1F4}" path="PICO_ST_73.tcKDTest" />
 		<child name="PICO_ST_03" key="{E6C7B5F8-7242-45CE-A8C5-C2F75B0570F7}" path="PICO_ST_03.tcKDTest" />
+		<child name="SingleTicketFlow" key="{9F5794C5-302A-46EC-997F-35357FBFBBCA}" path="SingleTicketFlow.tcKDTest" />
+		<child name="PICO_ST_34" key="{E54DE1B2-2E0F-457F-B5FB-F00A28FBFAA7}" path="PICO_ST_34.tcKDTest" />
+		<child name="PICO_ST_33" key="{03B54298-8882-4322-8017-52389FDCF246}" path="PICO_ST_33.tcKDTest" />
+		<child name="PICO_ST_43" key="{BDEC0FC9-60BE-4ECA-8A11-D784CA57E543}" path="PICO_ST_43.tcKDTest" />
+		<child name="ClearCache" key="{384FC085-8201-453A-9418-285FAF5B8CF7}" path="ClearCache.tcKDTest" />
+		<child name="PICO_ST_32" key="{CEE175DE-C907-4ADB-B693-80041C048ADD}" path="PICO_ST_32.tcKDTest" />
 	</children>
 </Root>

@@ -480,10 +480,10 @@
 										<TypeInfo Item0="{45FCF967-B461-4B71-B890-02C0762B0E07}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#m_buyNowBtn_ST" />
+												<Value Value="(//button[contains(.,&apos;Find times and prices&apos;)])[4]" />
 											</Selector>
 											<Selector>
-												<Value Value="(//button[contains(.,&apos;Find times and prices&apos;)])[4]" />
+												<Value Value="#m_buyNowBtn_ST" />
 											</Selector>
 											<Selector>
 												<Value Value="//button[@id=&apos;m_buyNowBtn_ST&apos;]" />
@@ -1937,6 +1937,39 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeNextDay" Key="{D190B44F-40C4-4ED5-9C99-0B0CC3246E55}">
+										<Image FileName="-1538137323" Left="903" Top="379" Right="972" Bottom="397" />
+										<TypeInfo Item0="{CBC1E1D6-7462-4DBB-BEA2-496A3AE9C5F6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Next Day&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".mix-day-btns &gt; .nxt-btn &gt; .mat-button-wrapper" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel14" Key="{DAF6A60D-44E0-4C4D-BC18-0404DC5CBD59}">
+										<Image FileName="-1098096133" Left="8" Top="786" Right="1032" Bottom="848" />
+										<TypeInfo Item0="{CBC1E1D6-7462-4DBB-BEA2-496A3AE9C5F6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[aria-live=&apos;polite&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;× Maximum limit exceeded!&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;toast-container&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//toastr-notification/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageAvantiWestCoastBookCheapTrai2" Key="{58819E69-BE86-4C4B-9E43-68758B829880}">
@@ -2655,6 +2688,21 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[2]/div/div/button/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel14" Key="{5C49F9F4-AECE-4129-A013-47C455184D97}">
+										<Image FileName="1700555938" Left="582" Top="457" Right="602" Bottom="477" />
+										<TypeInfo Item0="{4E358B31-9797-4DCA-9DE1-DDBC263743EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-radio-10 .mat-radio-outer-circle" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-button[@id=&apos;mat-radio-10&apos;]/label/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-button/label/div/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6453,6 +6501,30 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageClearbrowserdata" Key="{1FD6E792-226A-4EF6-8895-F8F4D9E00A07}">
+								<Image FileName="-1901044570" Left="8" Top="80" Right="1032" Bottom="780" />
+								<TypeInfo Item0="{3E5EEEB6-BEA1-4A2B-A5F6-6D7D282EEA5A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://settings/clearBrowserData" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSettings" Key="{C7AC4A89-6545-4685-9007-631F6990FF59}">
+								<Image FileName="-1901044570" Left="8" Top="80" Right="1032" Bottom="780" />
+								<TypeInfo Item0="{3E5EEEB6-BEA1-4A2B-A5F6-6D7D282EEA5A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://settings/" />
+									</Property>
+								</Properties>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -6533,7 +6605,9 @@
 					<Child Name="textnodePreviousDay" Owner="{43DF6FDA-C556-44AE-B09E-3A4062C062D3}" />
 				</Child>
 				<Child Name="panel2" Owner="{4ADBC657-276C-4757-9E21-623399B0FBD9}" />
-				<Child Name="buttonNextDay" Owner="{8DDE0369-9DB9-4197-AB99-220ACA22D5FB}" />
+				<Child Name="buttonNextDay" Owner="{8DDE0369-9DB9-4197-AB99-220ACA22D5FB}">
+					<Child Name="textnodeNextDay" Owner="{D190B44F-40C4-4ED5-9C99-0B0CC3246E55}" />
+				</Child>
 				<Child Name="panel3" Owner="{6CA4F390-DBC7-4768-B5E5-3C1DC641BF0B}" />
 				<Child Name="textnodeWeekly" Owner="{2E174786-E72F-4D04-B199-C088F8833C95}" />
 				<Child Name="textnodeWeekly2" Owner="{13D856DB-E008-4F93-B2D4-0BDA0FC0104B}" />
@@ -6588,6 +6662,7 @@
 				<Child Name="textnodeJourney1Season1Adult1522" Owner="{85682D57-9FD8-4BE6-B4A2-D869F6827A3A}" />
 				<Child Name="panel11" Owner="{64725B14-86DD-42BB-B608-8D28CA7576CE}" />
 				<Child Name="panel12" Owner="{666F5CD4-5B56-4442-88EF-5828EE659B6B}" />
+				<Child Name="panel14" Owner="{DAF6A60D-44E0-4C4D-BC18-0404DC5CBD59}" />
 			</Child>
 			<Child Name="pageAvantiWestCoastBookCheapTrai2" Owner="{58819E69-BE86-4C4B-9E43-68758B829880}">
 				<Child Name="panel" Owner="{D1EDA7A8-BBEC-432A-9066-4306A9EB993C}" />
@@ -6626,6 +6701,7 @@
 				</Child>
 				<Child Name="label8" Owner="{A01E8E2A-19BC-4B94-9D35-EA5C6B2F51B0}">
 					<Child Name="panel10" Owner="{44C6891B-8058-4F88-9899-E45111714D51}" />
+					<Child Name="panel14" Owner="{5C49F9F4-AECE-4129-A013-47C455184D97}" />
 				</Child>
 				<Child Name="panel11" Owner="{24CC4FF4-6B0F-4D64-8E62-F55AA757F7DD}" />
 				<Child Name="textnodeTotal" Owner="{50125084-04E1-4529-95EB-C5A7189DFA7D}" />
@@ -6884,6 +6960,8 @@
 					<Child Name="submitbuttonSubmit" Owner="{1145452F-9B07-4E85-BD40-6E0F3513C8CE}" />
 				</Child>
 			</Child>
+			<Child Name="pageClearbrowserdata" Owner="{1FD6E792-226A-4EF6-8895-F8F4D9E00A07}" />
+			<Child Name="pageSettings" Owner="{C7AC4A89-6545-4685-9007-631F6990FF59}" />
 		</Child>
 	</LogicalNodes>
 </Root>

@@ -173,13 +173,16 @@
 										<TypeInfo Item0="{B54C08D0-2D7B-4C05-AE2B-9F3DCD38A617}" />
 										<Selectors>
 											<Selector>
-												<Value Value="a[href=&apos;/tickets/login&apos;]" />
-											</Selector>
-											<Selector>
 												<Value Value="//a[text()=&apos;Sign in&apos;]" />
 											</Selector>
 											<Selector>
+												<Value Value="#signInD &gt; [href=&apos;/tickets/login&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="[href=&apos;/tickets/login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="a[href=&apos;/tickets/login&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//li[@id=&apos;signInD&apos;]/a" />
@@ -2291,13 +2294,13 @@
 										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
 										<Selectors>
 											<Selector>
+												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-3-0&apos;]/div/form/ngb-datepicker/div[2]/div[2]/ngb-datepicker-month/div[6]/div[3]/div" />
+											</Selector>
+											<Selector>
 												<Value Value="//div[text()=&apos;31&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="[role=&apos;row&apos;]:nth-child(6) &gt; [role=&apos;gridcell&apos;]:nth-child(3) &gt; .btn-light" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-3-0&apos;]/div/form/ngb-datepicker/div[2]/div[2]/ngb-datepicker-month/div[6]/div[3]/div" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[6]/div[3]/div" />
@@ -4126,6 +4129,54 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[2]/div/p/mat-radio-button/label/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSelectTicketType2" Key="{69760406-C3F4-4863-86A0-26F44BBB2251}">
+										<Image FileName="-1861318712" Left="763" Top="261" Right="845" Bottom="303" />
+										<TypeInfo Item0="{DF816ED8-3313-4A09-98C6-DA98124AA128}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Select ticket type&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[role=&apos;row&apos;]:nth-child(2) .text-spark" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-cell[8]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSelectTicketType3" Key="{BE03B900-9BC9-476C-93CF-2C78AAC76CC7}">
+										<Image FileName="204189308" Left="763" Top="322" Right="845" Bottom="364" />
+										<TypeInfo Item0="{DF816ED8-3313-4A09-98C6-DA98124AA128}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[role=&apos;row&apos;]:nth-child(4) .text-spark" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Select ticket type&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-row[3]/mat-cell[8]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel42" Key="{266E66F6-E3BC-4FF2-AF3E-3F45789B0CBA}">
+										<Image FileName="-385572955" Left="859" Top="429" Right="891" Bottom="461" />
+										<TypeInfo Item0="{DF816ED8-3313-4A09-98C6-DA98124AA128}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[role=&apos;row&apos;]:nth-child(6) &gt; [role=&apos;gridcell&apos;]:nth-child(6) &gt; .btn-light" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;29&apos;)])[17]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-2-0&apos;]/div/form/ngb-datepicker/div[2]/div[2]/ngb-datepicker-month/div[6]/div[6]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/div[6]/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -8030,6 +8081,36 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonRemove" Key="{E0037E90-527D-4DDE-8C94-B611D1A148D3}">
+										<Image FileName="723823553" Left="627" Top="201" Right="713" Bottom="241" />
+										<TypeInfo Item0="{28B491D0-B715-4A89-A38A-060579071A48}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Remove&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".w-100:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRemove" Key="{4A198F13-BAA4-4083-9635-A77B408A7F01}">
+										<Image FileName="723823553" Left="640" Top="211" Right="700" Bottom="231" />
+										<TypeInfo Item0="{DF816ED8-3313-4A09-98C6-DA98124AA128}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Remove&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".w-100:nth-child(1) &gt; .mat-button-wrapper" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageCommerceGateway" Key="{59E4CF5D-23A0-4BAA-A9FE-F30217ABF371}">
@@ -9501,6 +9582,366 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="cell9" Key="{6E9FDE3B-10B2-4498-9D24-DAC8831664F1}">
+										<Image FileName="711029779" Left="542" Top="534" Right="672" Bottom="574" />
+										<TypeInfo Item0="{2F61E7BA-91FD-4D13-8EB4-1EC55954D86B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[text()=&apos;Coach : E&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-star-inserted &gt; .mat-row:nth-child(1) &gt; .mat-cell:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-0&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr/th[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell10" Key="{1757CE9C-FE0A-4996-8415-AF3ABC93B2AF}">
+										<Image FileName="1350706108" Left="538" Top="570" Right="668" Bottom="620" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;Seat : 48&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".mat-row &gt; .ng-star-inserted" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-0&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell11" Key="{7D2D3EAB-8D20-47EC-BB01-525A047910BA}">
+										<Image FileName="1350706108" Left="668" Top="530" Right="826" Bottom="570" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[text()=&apos;Seat Facing&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-star-inserted &gt; .mat-row:nth-child(1) &gt; .mat-cell:nth-child(3)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-0&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr/th[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell12" Key="{DA904DDF-0DFC-4E95-B3B8-DEC067958303}">
+										<Image FileName="1350706108" Left="668" Top="570" Right="826" Bottom="620" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;Backward&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".mat-row:nth-child(2) &gt; .mat-cell:nth-child(3)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-0&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell13" Key="{1A81C88A-45B2-4E31-A020-9364308424FF}">
+										<Image FileName="1350706108" Left="826" Top="530" Right="1009" Bottom="570" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[text()=&apos;Seat Position&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-star-inserted &gt; .mat-row:nth-child(1) &gt; .mat-cell:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-0&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr/th[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell14" Key="{A54ED80C-C377-4B65-915C-02D977BDD00F}">
+										<Image FileName="1350706108" Left="826" Top="570" Right="1009" Bottom="620" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;Window&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".mat-row:nth-child(2) &gt; .mat-cell:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-0&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell15" Key="{DAE5C491-4CC6-4444-A7AA-2E4365DEB5DD}">
+										<Image FileName="1350706108" Left="1009" Top="530" Right="1269" Bottom="570" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[text()=&apos;Seat Type&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-star-inserted &gt; .mat-row:nth-child(1) &gt; .mat-cell:nth-child(5)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-0&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr/th[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell16" Key="{0449CAD2-E3C9-43BA-A287-C2EAC424C943}">
+										<Image FileName="1350706108" Left="1009" Top="570" Right="1269" Bottom="620" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;Near Luggage Rack&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".mat-row:nth-child(2) &gt; .mat-cell:nth-child(5)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-0&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell17" Key="{EA715770-4251-4BEA-9328-E3AC45051C05}">
+										<Image FileName="1350706108" Left="1269" Top="530" Right="1466" Bottom="570" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[text()=&apos;Coach&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".mat-row:nth-child(1) &gt; .mat-cell:nth-child(6)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-0&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr/th[6]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell18" Key="{9BCE834B-6238-4D9C-88D6-73469CC55575}">
+										<Image FileName="1350706108" Left="1269" Top="570" Right="1466" Bottom="620" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;No Preference&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".btm-space-td &gt; .mat-cell:nth-child(6)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-0&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[6]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell19" Key="{A4A609DA-4098-4126-A9FB-D7116EEFFA4B}">
+										<Image FileName="767624532" Left="538" Top="813" Right="683" Bottom="853" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[text()=&apos;Coach : C&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#cdk-accordion-child-1 &gt; .mat-expansion-panel-body:nth-child(1) &gt; .p-20:nth-child(1) &gt; .bg-solve:nth-child(2) &gt; .ticket-details-bx:nth-child(1) &gt; div:nth-child(2) &gt; .mat-table:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .mat-row:nth-child(1) &gt; .mat-cell:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-1&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr/th[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-accordion/mat-expansion-panel/div/div/div/div[2]/div/div[2]/table/tbody/tr/th[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell20" Key="{5107294C-4637-4D22-8B6F-D9245B750580}">
+										<Image FileName="767624532" Left="538" Top="853" Right="683" Bottom="903" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;Seat : 61&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#cdk-accordion-child-1 &gt; .mat-expansion-panel-body:nth-child(1) &gt; .p-20:nth-child(1) &gt; .bg-solve:nth-child(2) &gt; .ticket-details-bx:nth-child(1) &gt; div:nth-child(2) &gt; .mat-table:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .mat-row:nth-child(2) &gt; .mat-cell:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-1&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-accordion/mat-expansion-panel/div/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell21" Key="{70659322-8B49-409C-A33D-56464AC43375}">
+										<Image FileName="767624532" Left="683" Top="813" Right="854" Bottom="853" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#cdk-accordion-child-1 &gt; .mat-expansion-panel-body:nth-child(1) &gt; .p-20:nth-child(1) &gt; .bg-solve:nth-child(2) &gt; .ticket-details-bx:nth-child(1) &gt; div:nth-child(2) &gt; .mat-table:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .mat-row:nth-child(1) &gt; .mat-cell:nth-child(3)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//th[contains(.,&apos;Seat Facing&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-1&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr/th[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-accordion/mat-expansion-panel/div/div/div/div[2]/div/div[2]/table/tbody/tr/th[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell22" Key="{3D663763-7D89-4064-A716-CD0EB56A4D20}">
+										<Image FileName="767624532" Left="683" Top="853" Right="854" Bottom="903" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#cdk-accordion-child-1 &gt; .mat-expansion-panel-body:nth-child(1) &gt; .p-20:nth-child(1) &gt; .bg-solve:nth-child(2) &gt; .ticket-details-bx:nth-child(1) &gt; div:nth-child(2) &gt; .mat-table:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .mat-row:nth-child(2) &gt; .mat-cell:nth-child(3)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//td[contains(.,&apos;Backward&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-1&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-accordion/mat-expansion-panel/div/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell23" Key="{08EBB964-9172-45BB-A577-8A7DE6160FB0}">
+										<Image FileName="767624532" Left="854" Top="813" Right="1051" Bottom="853" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#cdk-accordion-child-1 &gt; .mat-expansion-panel-body:nth-child(1) &gt; .p-20:nth-child(1) &gt; .bg-solve:nth-child(2) &gt; .ticket-details-bx:nth-child(1) &gt; div:nth-child(2) &gt; .mat-table:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .mat-row:nth-child(1) &gt; .mat-cell:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//th[contains(.,&apos;Seat Position&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-1&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr/th[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-accordion/mat-expansion-panel/div/div/div/div[2]/div/div[2]/table/tbody/tr/th[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell24" Key="{1A4CF6EC-C4B6-4F5D-8414-1EEEAED6423E}">
+										<Image FileName="767624532" Left="854" Top="853" Right="1051" Bottom="903" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#cdk-accordion-child-1 &gt; .mat-expansion-panel-body:nth-child(1) &gt; .p-20:nth-child(1) &gt; .bg-solve:nth-child(2) &gt; .ticket-details-bx:nth-child(1) &gt; div:nth-child(2) &gt; .mat-table:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .mat-row:nth-child(2) &gt; .mat-cell:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//td[contains(.,&apos;Window&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-1&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-accordion/mat-expansion-panel/div/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell25" Key="{3073F932-6281-4CCD-914E-CE3C47CA065A}">
+										<Image FileName="767624532" Left="1051" Top="813" Right="1253" Bottom="853" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#cdk-accordion-child-1 &gt; .mat-expansion-panel-body:nth-child(1) &gt; .p-20:nth-child(1) &gt; .bg-solve:nth-child(2) &gt; .ticket-details-bx:nth-child(1) &gt; div:nth-child(2) &gt; .mat-table:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .mat-row:nth-child(1) &gt; .mat-cell:nth-child(5)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//th[contains(.,&apos;Seat Type&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-1&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr/th[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-accordion/mat-expansion-panel/div/div/div/div[2]/div/div[2]/table/tbody/tr/th[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell26" Key="{5F6FA14F-8F1E-4E87-A564-16FE4D607CA6}">
+										<Image FileName="767624532" Left="1051" Top="853" Right="1253" Bottom="903" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;Power Socket&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#cdk-accordion-child-1 &gt; .mat-expansion-panel-body:nth-child(1) &gt; .p-20:nth-child(1) &gt; .bg-solve:nth-child(2) &gt; .ticket-details-bx:nth-child(1) &gt; div:nth-child(2) &gt; .mat-table:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .mat-row:nth-child(2) &gt; .mat-cell:nth-child(5)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-1&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-accordion/mat-expansion-panel/div/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell27" Key="{10D37443-92A9-435A-922E-19B54488D179}">
+										<Image FileName="767624532" Left="1253" Top="813" Right="1466" Bottom="853" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#cdk-accordion-child-1 &gt; .mat-expansion-panel-body:nth-child(1) &gt; .p-20:nth-child(1) &gt; .bg-solve:nth-child(2) &gt; .ticket-details-bx:nth-child(1) &gt; div:nth-child(2) &gt; .mat-table:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .mat-row:nth-child(1) &gt; .mat-cell:nth-child(6)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//th[contains(.,&apos;Coach&apos;)])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-1&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr/th[6]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-accordion/mat-expansion-panel/div/div/div/div[2]/div/div[2]/table/tbody/tr/th[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell28" Key="{2C286BAE-16BB-4207-95EF-414D3A8740E1}">
+										<Image FileName="767624532" Left="1253" Top="853" Right="1466" Bottom="903" />
+										<TypeInfo Item0="{1057E41D-F2EB-4355-BCAC-D2E9549D8CA0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#cdk-accordion-child-1 &gt; .mat-expansion-panel-body:nth-child(1) &gt; .p-20:nth-child(1) &gt; .bg-solve:nth-child(2) &gt; .ticket-details-bx:nth-child(1) &gt; div:nth-child(2) &gt; .mat-table:nth-child(1) &gt; .ng-star-inserted:nth-child(2) &gt; .mat-row:nth-child(2) &gt; .mat-cell:nth-child(6)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//td[contains(.,&apos;No Preference&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-1&apos;]/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[6]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-accordion/mat-expansion-panel/div/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageBankChallenge" Key="{02CDD416-D1C6-4CD9-81CA-ECCF562843E9}">
@@ -9596,6 +10037,30 @@
 									</Property>
 									<Property Name="URL">
 										<Value Value="https://testacs.netswgroup.it/SVIL_3DS_ACS_GUI/brw/auth/otp/check*" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageClearbrowserdata" Key="{13C32A45-49C2-4937-8CBD-F63E6D8DA3CA}">
+								<Image FileName="172252094" Left="4" Top="107" Right="1362" Bottom="724" />
+								<TypeInfo Item0="{BF842571-61F2-4BDF-A877-B1834C5AFA72}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://settings/clearBrowserData" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSettings" Key="{82E2028A-4078-4CDB-9D5A-A5F0BBB942CE}">
+								<Image FileName="172252094" Left="4" Top="107" Right="1362" Bottom="724" />
+								<TypeInfo Item0="{BF842571-61F2-4BDF-A877-B1834C5AFA72}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://settings/" />
 									</Property>
 								</Properties>
 							</Child>
@@ -9755,6 +10220,7 @@
 					<Child Name="panel7" Owner="{F9D87BBA-2D15-4C9A-ADC8-182DDDC19695}" />
 					<Child Name="buttonApply" Owner="{5C02B1C4-CFF4-4B7D-ABAD-83C0E6557C93}" />
 					<Child Name="panel9" Owner="{13E32F1E-4D27-4036-A866-94B045CB9325}" />
+					<Child Name="panel42" Owner="{266E66F6-E3BC-4FF2-AF3E-3F45789B0CBA}" />
 				</Child>
 				<Child Name="panel5" Owner="{A4B2A31E-35DB-47A4-8FAC-F57E25EF1B55}" />
 				<Child Name="textnodeReadingRdg" Owner="{92243995-630C-482F-B6F6-66DA1951F36F}" />
@@ -9879,6 +10345,8 @@
 					<Child Name="panel38" Owner="{9008BCB0-9DF7-4D43-B9FC-53772EE848C4}" />
 					<Child Name="panel41" Owner="{F1A82110-6624-4306-A20B-507ABFFF1155}" />
 				</Child>
+				<Child Name="textnodeSelectTicketType2" Owner="{69760406-C3F4-4863-86A0-26F44BBB2251}" />
+				<Child Name="textnodeSelectTicketType3" Owner="{BE03B900-9BC9-476C-93CF-2C78AAC76CC7}" />
 			</Child>
 			<Child Name="pageAvantiWestCoastBookCheapTrai2" Owner="{50523612-3242-4EBE-B8A8-3E4D256CD9EA}">
 				<Child Name="textnodeResetPassword" Owner="{F30C5651-C32A-4C76-85F3-B7902A701BDC}" />
@@ -10149,6 +10617,9 @@
 				<Child Name="buttonOk" Owner="{8C6DEFDD-3CC9-4132-A415-DE07A9A85F2F}">
 					<Child Name="textnodeOk" Owner="{D6E3B13F-BC5F-4A2D-9024-E6167C48412D}" />
 				</Child>
+				<Child Name="buttonRemove" Owner="{E0037E90-527D-4DDE-8C94-B611D1A148D3}">
+					<Child Name="textnodeRemove" Owner="{4A198F13-BAA4-4083-9635-A77B408A7F01}" />
+				</Child>
 			</Child>
 			<Child Name="pageCommerceGateway" Owner="{59E4CF5D-23A0-4BAA-A9FE-F30217ABF371}">
 				<Child Name="textnodeTicketPurchase" Owner="{E3628A7C-793A-416E-AB0B-49A2E18F5DA3}" />
@@ -10233,6 +10704,26 @@
 				<Child Name="textnodeSeating2" Owner="{C02D7AAA-08C5-4567-9D98-E8783268A92C}" />
 				<Child Name="textnodeOutward4" Owner="{3B32AAFB-0110-48B0-9C31-A8E2DDDCFACF}" />
 				<Child Name="textnodeLondonEustonEusMancheste4" Owner="{AA44D734-477E-440A-AEFA-51C332FB1EDD}" />
+				<Child Name="cell9" Owner="{6E9FDE3B-10B2-4498-9D24-DAC8831664F1}" />
+				<Child Name="cell10" Owner="{1757CE9C-FE0A-4996-8415-AF3ABC93B2AF}" />
+				<Child Name="cell11" Owner="{7D2D3EAB-8D20-47EC-BB01-525A047910BA}" />
+				<Child Name="cell12" Owner="{DA904DDF-0DFC-4E95-B3B8-DEC067958303}" />
+				<Child Name="cell13" Owner="{1A81C88A-45B2-4E31-A020-9364308424FF}" />
+				<Child Name="cell14" Owner="{A54ED80C-C377-4B65-915C-02D977BDD00F}" />
+				<Child Name="cell15" Owner="{DAE5C491-4CC6-4444-A7AA-2E4365DEB5DD}" />
+				<Child Name="cell16" Owner="{0449CAD2-E3C9-43BA-A287-C2EAC424C943}" />
+				<Child Name="cell17" Owner="{EA715770-4251-4BEA-9328-E3AC45051C05}" />
+				<Child Name="cell18" Owner="{9BCE834B-6238-4D9C-88D6-73469CC55575}" />
+				<Child Name="cell19" Owner="{A4A609DA-4098-4126-A9FB-D7116EEFFA4B}" />
+				<Child Name="cell20" Owner="{5107294C-4637-4D22-8B6F-D9245B750580}" />
+				<Child Name="cell21" Owner="{70659322-8B49-409C-A33D-56464AC43375}" />
+				<Child Name="cell22" Owner="{3D663763-7D89-4064-A716-CD0EB56A4D20}" />
+				<Child Name="cell23" Owner="{08EBB964-9172-45BB-A577-8A7DE6160FB0}" />
+				<Child Name="cell24" Owner="{1A4CF6EC-C4B6-4F5D-8414-1EEEAED6423E}" />
+				<Child Name="cell25" Owner="{3073F932-6281-4CCD-914E-CE3C47CA065A}" />
+				<Child Name="cell26" Owner="{5F6FA14F-8F1E-4E87-A564-16FE4D607CA6}" />
+				<Child Name="cell27" Owner="{10D37443-92A9-435A-922E-19B54488D179}" />
+				<Child Name="cell28" Owner="{2C286BAE-16BB-4207-95EF-414D3A8740E1}" />
 			</Child>
 			<Child Name="pageBankChallenge" Owner="{02CDD416-D1C6-4CD9-81CA-ECCF562843E9}">
 				<Child Name="formCommand" Owner="{4C504109-98E0-4D80-9C3A-89EB4F6C1124}">
@@ -10241,6 +10732,8 @@
 				</Child>
 			</Child>
 			<Child Name="pageCheck" Owner="{4C709BA0-7C5A-488A-B8F0-60453BE1F690}" />
+			<Child Name="pageClearbrowserdata" Owner="{13C32A45-49C2-4937-8CBD-F63E6D8DA3CA}" />
+			<Child Name="pageSettings" Owner="{82E2028A-4078-4CDB-9D5A-A5F0BBB942CE}" />
 		</Child>
 	</LogicalNodes>
 </Root>

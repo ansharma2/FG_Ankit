@@ -981,6 +981,120 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="checkbox6" Key="{6AEBEBFD-77DA-4D30-AB82-D1C9B7BAD2C9}">
+										<Image FileName="-827653150" Left="990" Top="415" Right="1022" Bottom="437" />
+										<TypeInfo Item0="{EFF58DDA-7CC2-4BA8-AEFA-D3A55656E965}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#weekly_ST &gt; [type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@name=&apos;&apos;])[14]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;weekly_ST&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkbox7" Key="{40EB14E4-CAF9-4D43-89D3-CC997613A51E}">
+										<Image FileName="-827653150" Left="1114" Top="415" Right="1146" Bottom="437" />
+										<TypeInfo Item0="{EFF58DDA-7CC2-4BA8-AEFA-D3A55656E965}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#monthly_ST &gt; [type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;checkbox&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@name=&apos;&apos;])[15]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;monthly_ST&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkbox8" Key="{44216D75-D10F-4F3C-9885-44AD5C1B7D5F}">
+										<Image FileName="-827653150" Left="1262" Top="415" Right="1294" Bottom="437" />
+										<TypeInfo Item0="{EFF58DDA-7CC2-4BA8-AEFA-D3A55656E965}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#annual_ST &gt; [type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;checkbox&apos;])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@name=&apos;&apos;])[16]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;annual_ST&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div[2]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonA3" Key="{90AA3C42-ED3A-4B6A-97C5-E4E770E42E95}">
+										<Image FileName="-827653150" Left="990" Top="575" Right="1022" Bottom="597" />
+										<TypeInfo Item0="{08AD917D-8A1D-4556-82C7-DA085952E6A6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;a&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#adult_ST &gt; [type=&apos;radio&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;radio&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;a&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;adult_ST&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonA4" Key="{83A3A32E-9520-4343-BD60-7577DFC1992F}">
+										<Image FileName="-827653150" Left="1114" Top="575" Right="1146" Bottom="597" />
+										<TypeInfo Item0="{08AD917D-8A1D-4556-82C7-DA085952E6A6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#child_ST &gt; [type=&apos;radio&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;radio&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@name=&apos;a&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;child_ST&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{4A21C3D8-402C-45C0-BDAC-F64DA3781AA8}">
@@ -2264,6 +2378,78 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeNextDay" Key="{67B11CF6-09FB-43C5-B791-235E0D44A8CD}">
+										<Image FileName="-819168692" Left="1433" Top="368" Right="1502" Bottom="386" />
+										<TypeInfo Item0="{3FBA82F1-13F6-485F-B262-C5B4F51250DC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Next Day&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".mix-day-btns &gt; .nxt-btn &gt; .mat-button-wrapper" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel22" Key="{DA5BCAF2-8656-4302-9BB7-6DF44D7DEB75}">
+										<Image FileName="-201116005" Left="4" Top="1094" Right="1916" Bottom="1156" />
+										<TypeInfo Item0="{3FBA82F1-13F6-485F-B262-C5B4F51250DC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[aria-live=&apos;polite&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;× Maximum limit exceeded!&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;toast-container&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//toastr-notification/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button5" Key="{3A810B65-B463-4A73-8966-7279D3F1B7D7}">
+										<Image FileName="-917098313" Left="955" Top="378" Right="995" Bottom="418" />
+										<TypeInfo Item0="{205DCF0A-BA19-4BC3-88DA-2770C15EF2C4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="button[aria-label=&apos;Next month&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Next month&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//button[@type=&apos;button&apos;])[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-calendar[@id=&apos;mat-datepicker-0&apos;]/mat-calendar-header/div/div/button[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-calendar-header/div/div/button[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel23" Key="{12C20052-5EDF-4DB7-BCA9-337458EA10BA}">
+										<Image FileName="844550696" Left="915" Top="506" Right="951" Bottom="542" />
+										<TypeInfo Item0="{3FBA82F1-13F6-485F-B262-C5B4F51250DC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;9&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[role=&apos;row&apos;]:nth-child(2) &gt; [role=&apos;button&apos;]:nth-child(6) &gt; .mat-calendar-body-cell-content" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-calendar[@id=&apos;mat-datepicker-0&apos;]/div/mat-month-view/table/tbody/tr[2]/td[6]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[6]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageAvantiWestCoastBookCheapTrai3" Key="{9821D151-6C6C-405F-AB6A-5DD3C882A3CB}">
@@ -3096,6 +3282,42 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[5]/mat-form-field/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel14" Key="{6EBC9687-655A-4097-B447-EB04171CB860}">
+										<Image FileName="-753706016" Left="463" Top="543" Right="944" Bottom="578" />
+										<TypeInfo Item0="{F25251F7-D707-4B60-9CA7-419209DCA6BA}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".col-md-6:nth-child(1) .d-flex:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;PLUSBUS&apos;)])[12]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-2&apos;]/div/div/div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLondonTravelcard" Key="{6F19ADA5-01BF-4D30-92AB-D0FBDD50B037}">
+										<Image FileName="-955971910" Left="1040" Top="543" Right="1181" Bottom="563" />
+										<TypeInfo Item0="{F25251F7-D707-4B60-9CA7-419209DCA6BA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(text(), &apos;London Travelcard&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".col-md-6:nth-child(2) .d-flex &gt; .font-500" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-2&apos;]/div/div/div/div/div[2]/div/div/p" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/p" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6835,6 +7057,30 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageClearbrowserdata" Key="{F6F3CEDE-EF69-4D73-B687-9CA8938F2FAC}">
+								<Image FileName="-123978704" Left="4" Top="107" Right="1362" Bottom="724" />
+								<TypeInfo Item0="{D377FBC7-E728-4A6C-AFDA-D8CC1AFAC8DC}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://settings/clearBrowserData" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSettings" Key="{2FD6EA00-16F6-45BF-A403-BDB4C9D8D882}">
+								<Image FileName="-123978704" Left="4" Top="107" Right="1362" Bottom="724" />
+								<TypeInfo Item0="{D377FBC7-E728-4A6C-AFDA-D8CC1AFAC8DC}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://settings/" />
+									</Property>
+								</Properties>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -6848,6 +7094,11 @@
 					<Child Name="linkSeasonTickets" Owner="{A70A47F3-9DB9-4787-AFA0-595674CA3533}" />
 					<Child Name="linkBuyTickets" Owner="{50208879-45EF-4DF2-A710-0CDDBA8EA915}" />
 					<Child Name="linkBuyTickets2" Owner="{62CBB704-FA39-4F70-8234-2E2FF2269E21}" />
+					<Child Name="checkbox6" Owner="{6AEBEBFD-77DA-4D30-AB82-D1C9B7BAD2C9}" />
+					<Child Name="checkbox7" Owner="{40EB14E4-CAF9-4D43-89D3-CC997613A51E}" />
+					<Child Name="checkbox8" Owner="{44216D75-D10F-4F3C-9885-44AD5C1B7D5F}" />
+					<Child Name="radiobuttonA3" Owner="{90AA3C42-ED3A-4B6A-97C5-E4E770E42E95}" />
+					<Child Name="radiobuttonA4" Owner="{83A3A32E-9520-4343-BD60-7577DFC1992F}" />
 				</Child>
 				<Child Name="panelWeeklySt" Owner="{861727A8-193A-4A7F-861D-0663173225F1}" />
 				<Child Name="panelMonthlySt" Owner="{0493F535-7B4A-4516-BA65-8E7CEB97DC01}" />
@@ -6941,7 +7192,9 @@
 				<Child Name="buttonPreviousDay" Owner="{D002D3EE-FEC6-4568-A0C5-F4D7BEF0BF19}">
 					<Child Name="textnodePreviousDay" Owner="{C84E6B6C-3A48-4450-9CCF-FE5E42A937FE}" />
 				</Child>
-				<Child Name="buttonNextDay" Owner="{9D0B49C7-B1F7-468D-9C43-1669A107E7AD}" />
+				<Child Name="buttonNextDay" Owner="{9D0B49C7-B1F7-468D-9C43-1669A107E7AD}">
+					<Child Name="textnodeNextDay" Owner="{67B11CF6-09FB-43C5-B791-235E0D44A8CD}" />
+				</Child>
 				<Child Name="panel3" Owner="{7DE8E84D-3F95-4F6B-8E9B-471B58C60467}" />
 				<Child Name="panel4" Owner="{BEDB2598-FD3E-4823-AD8B-E1C4A55A0561}" />
 				<Child Name="panel5" Owner="{E8601E7C-E299-4274-944B-67BE2A51BD7B}" />
@@ -6985,6 +7238,9 @@
 				<Child Name="textnode15856002" Owner="{5E9FD88E-D399-4259-8E8B-AD72DDFD30B7}" />
 				<Child Name="textnodeTotalPrice" Owner="{8DDA3B55-ED3E-4315-BF59-4015CD38BEFA}" />
 				<Child Name="panel20" Owner="{A3A4E542-3280-497B-9AAC-79C2648B316F}" />
+				<Child Name="panel22" Owner="{DA5BCAF2-8656-4302-9BB7-6DF44D7DEB75}" />
+				<Child Name="button5" Owner="{3A810B65-B463-4A73-8966-7279D3F1B7D7}" />
+				<Child Name="panel23" Owner="{12C20052-5EDF-4DB7-BCA9-337458EA10BA}" />
 			</Child>
 			<Child Name="pageAvantiWestCoastBookCheapTrai3" Owner="{9821D151-6C6C-405F-AB6A-5DD3C882A3CB}">
 				<Child Name="panel" Owner="{5CAABB40-F96E-40D5-8714-6406954B82B5}" />
@@ -7041,6 +7297,8 @@
 				<Child Name="panel12" Owner="{D5E160B5-00C9-4E57-A87E-F2F2C86DCB2C}" />
 				<Child Name="textnodeTotalPrice152220" Owner="{C1A7CC77-1677-4C46-9C2B-611830D38BB5}" />
 				<Child Name="panel13" Owner="{B6FF6E44-8881-4CD8-8E28-73F01A549F76}" />
+				<Child Name="panel14" Owner="{6EBC9687-655A-4097-B447-EB04171CB860}" />
+				<Child Name="textnodeLondonTravelcard" Owner="{6F19ADA5-01BF-4D30-92AB-D0FBDD50B037}" />
 			</Child>
 			<Child Name="pageAvantiWestCoastBookCheapTrai4" Owner="{EBA03EB7-CA07-4F59-8625-C143A5412B3B}">
 				<Child Name="form" Owner="{5B0D6532-8370-4D71-A747-F6C09FFB0333}">
@@ -7284,6 +7542,8 @@
 					<Child Name="submitbuttonSubmit" Owner="{9ED80B5A-7277-4725-AF95-3F81031BF779}" />
 				</Child>
 			</Child>
+			<Child Name="pageClearbrowserdata" Owner="{F6F3CEDE-EF69-4D73-B687-9CA8938F2FAC}" />
+			<Child Name="pageSettings" Owner="{2FD6EA00-16F6-45BF-A403-BDB4C9D8D882}" />
 		</Child>
 	</LogicalNodes>
 </Root>
